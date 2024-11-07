@@ -1,4 +1,4 @@
-# variable_font_exercice1
+# rendu-final-siteweb
 
 url de mon site :
-https://clarajacquemoud-prof.github.io/battle_font_exercice1/
+https://sachaterrier.github.io/site_web/
