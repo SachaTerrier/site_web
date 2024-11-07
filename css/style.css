@@ -1,0 +1,558 @@
+.facade{
+  font-family: 'FacadeGX';/*on réutilise le nom choisi au sein du fichier font_liste.css*/
+}
+
+.ouvrieres{
+  font-family: 'OuvrièresGX';
+}
+
+.fungal{
+  font-family: 'FungalGX';
+}
+
+.movement{
+  font-family: 'MovementV';
+}
+  
+.recursive{
+  font-family: 'recursive';
+}
+
+.bricolage{
+  font-family: 'BricolageGrotesque';
+}
+
+.handjet{
+  font-family: 'handjet';
+}
+
+.sixtyhour{
+  font-family: 'sixtyhour';
+}
+
+.tiny{
+  font-family: 'tiny';
+}
+ 
+
+.mixal{
+  font-family: 'mixal';
+} 
+  
+body{
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor:url(https://cdn.custom-cursor.com/db/12618/cute-frog-and-mushroom-cursor.png), pointer;
+}
+
+main{
+  display: block;
+  position: relative;
+  width: 2500px;
+  overflow-x: hidden;
+  background-color: rgb(205, 205, 219);
+  height: 100vh;
+  
+  }
+  
+ #marche{
+  animation-name: marche; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 5.8s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 50ms;/*faire démarer une animation un peu en retard*/
+  font-size: 100px;
+  font-variation-settings:"FRMT" 900,"wght" 500;
+  transform: rotate(-20deg);
+  
+
+ }
+  
+ @keyframes marche { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ 
+propriété : valeur; color: rgb(255, 30, 0);
+font-size: 300px;
+font-variation-settings:"FRMT" 900,"wght" 500;
+position:relative;right: -380px ; bottom: -450px;                                                       
+}
+               
+20%{
+
+propriété : valeur; color: rgb(120, 23, 71);                                                                          
+font-variation-settings:"FRMT" 400,"wght" 450;
+
+
+}
+55%{
+propriété : valeur; color: rgb(112, 13, 13);
+font-size: 290px;
+font-variation-settings:"FRMT" 800,"wght" 400;
+position:relative; right: -200px ; bottom: -450px;
+}
+
+60%{propriété : valeur; color: rgb(112, 13, 13);
+  font-size: 290px;
+  font-variation-settings:"FRMT" 800,"wght" 400;
+  position:relative; right: -200px ; bottom: -450px;
+
+}
+70%{
+  font-size: 290px;
+  font-variation-settings:"FRMT" 400,"wght" 400;
+  position:relative; right: -250px ; bottom: -500px;
+}
+80%{
+  font-size: 290px;
+  font-variation-settings:"FRMT" 700,"wght" 400;
+  position:relative; right: -230px ; bottom: -440px;
+}
+90%{
+  font-size: 290px;
+  font-variation-settings:"FRMT" 900,"wght" 400;
+  position:relative; right: -210px ; bottom: -460px;
+}
+100%{
+  font-size: 290px;
+  font-variation-settings:"FRMT" 500,"wght" 400;
+  position:relative; right: -200px ; bottom: -450px;
+}
+}
+
+#goutte{
+  animation-name: goutte ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1.7s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 1.8s;/*faire démarer une animation un peu en retard*/
+  font-size: 200px;
+  color: rgb(28, 115, 165);
+  font-variation-settings:"SCAN" 50,"BLED" 50;
+  position:relative; right: -872px ; bottom: 250px
+
+ }
+ @keyframes goutte  { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ 
+propriété : valeur; font-size: 200px;
+font-variation-settings:"SCAN" 50,"BLED" 50;   
+position:relative; right: -872px ; bottom: 250px                                                   
+}
+              
+96%{
+propriété : valeur; font-size: 220px;
+font-variation-settings:"SCAN" 50,"BLED" 50;
+position:relative; right: -872px ; bottom: -270px;
+opacity: 100%                                                                            ;
+}
+100%{
+propriété :valeur; 
+opacity: 0%;              
+font-variation-settings:"SCAN" 50,"BLED" 50;
+position:relative; right: -872px ; bottom: -270px;
+}
+}
+
+#plouf{
+  animation-name: ploc ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1.7s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 3.4s;/*faire démarer une animation un peu en retard*/
+  transform: rotate(20deg);
+  opacity:0%  
+
+ }
+ @keyframes ploc  { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+
+0%{ 
+  propriété : valeur; font-size: 100px;
+  font-variation-settings:"SCAN" 10,"BLED" 20;
+  position:relative; right: -1023px ; bottom: -470px; 
+  color: rgb(21, 87, 125); 
+  opacity: 90%                                                   
+  }
+100%{ 
+ propriété : valeur; font-size: 180px;
+ font-variation-settings:"SCAN" 50,"BLED" 90;
+ position:relative; right: -1040px ; bottom: -480px; 
+ color: rgb(129, 189, 225);
+ opacity: 0%                                                    
+  }
+  }
+
+  
+  #crie{
+    animation-name: cries ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 1.7s; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 4s;/*faire démarer une animation un peu en retard*/
+    transform: rotate(45deg);
+    position:relative; right: -400px ; bottom: -602px; 
+    font-size: 100px;
+    color: rgb(215, 88, 15);
+    opacity: 0%
+    }
+
+    @keyframes cries  { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+    
+    0%{ 
+      propriété : valeur; font-size: 100px;
+      font-variation-settings:"FMRT" 100,"wght" 100;
+      position:relative; right: -350px ; bottom: -50px; 
+      color: rgb(186, 85, 23); 
+      opacity: 100%                                                   
+      }
+    100%{ 
+      propriété : valeur; font-size: 110px;
+      font-variation-settings:"FMRT" 100,"wght" 900;
+      position:relative; right: -330px ; bottom: -50px; 
+      color: rgb(171, 13, 40); 
+      opacity: 80%                                                           
+      }    
+    }
+  
+    #fixe{
+    font-size: 300px ;  
+    color: black;
+    font-variation-settings:"FMRT" 900,"wght" 500;
+    transform: rotate(60deg);
+    position:relative; right: 500px ; bottom: -25px; 
+    }
+
+    #fixe2{
+      font-size: 300px ;  
+      color: black;
+      font-variation-settings:"FMRT" 900,"wght" 500;
+      position:relative; right: -600px ; bottom: -250px; 
+      }
+    
+#grenouille1{
+font-size: 200px;
+color: green;
+font-variation-settings:"SCAN" -35,"BLED" 45;
+position:relative; right: -600px ; bottom: 350px; 
+}
+
+#grenouille1:hover{
+  font-size: 220px;
+  color: darkgreen;
+  font-variation-settings:"SCAN" 65,"BLED" 85;
+  position:relative; right: -600px ; bottom: 380px;  
+  transform: rotate3d(200px);
+}
+
+#grenouille2{
+  animation-name: croa ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: 5; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-delay : 5s;/*faire démarer une animation un peu en retard*/
+  font-size: 100px;
+  font-variation-settings:"SCAN" -35,"BLED" 45;
+  position:relative; right: -400px ; bottom: -50px; 
+  color: rgb(42, 155, 68); 
+  
+  
+  }
+
+  @keyframes croa  { /*ici vous renseignez le nom de l'animation à réutiliser 
+    pour la propriété animation-name*/
+  
+  0%{ 
+    propriété : valeur; font-size: 100px;
+    font-variation-settings:"SCAN" -35,"BLED" 45;
+    position:relative; right: -400px ; bottom: -50px; 
+    color: rgb(42, 155, 68); 
+                                                  
+    }
+
+   25%{
+    
+    position:relative; right: -350px ; bottom: 40px; 
+    
+    
+   }
+   50%{
+    
+    position:relative; right: -300px ; bottom: 80px; 
+    propriété : valeur; font-size: 150px;
+    font-variation-settings:"SCAN" 15,"BLED" 55;
+   }
+   75%{
+    
+    position:relative; right: -250px ; bottom: 40px; 
+    
+    
+   }
+  100%{ 
+    propriété : valeur; font-size: 110px;
+    font-variation-settings:"SCAN" -35,"BLED" 45;
+    position:relative; right: -200px ; bottom: -50px; 
+    color: rgb(12, 69, 18); 
+                                                            
+    }    
+  }
+  #kiii{
+    animation-name: kiii ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 1.9s; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 5; /*nombre d'itération de l'animation*/
+    animation-direction: normal;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-delay : 5.5s;/*faire démarer une animation un peu en retard*/
+    font-size: 100px;
+    color: darkorange;
+    opacity: 0%;
+    
+    }
+  
+    @keyframes kiii  { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+    
+    0%{ 
+      propriété : valeur; font-size: 100px;
+      font-variation-settings:"FMRT" 100,"wght" 100;
+      position:relative; right: -600px ; bottom: 250px; 
+      color: darkorange;
+      opacity: 100%;
+
+      }
+      100%{ 
+        propriété : valeur; font-size: 150px;
+        font-variation-settings:"FMRT" 100,"wght" 800;
+        position:relative; right: -600px ; bottom: 280px; 
+        color: brown;
+        opacity: 70%;
+  
+        }
+      }
+      
+      #fixe3{
+        font-size: 200px ;  
+        color: black;
+        font-variation-settings:"FMRT" 900,"wght" 900;
+        position:relative; right: -800px ; bottom: 550px; 
+        transform: rotate(-70deg);
+        }
+
+        #fixe3:hover{
+          font-size: 210px ;  
+          color: rgb(88, 12, 12);
+          font-variation-settings:"FMRT" 900,"wght" 100;
+          position:relative; right: -800px ; bottom: 550px; 
+         
+          }
+
+          #grenouille3{
+            animation-name: aie ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+            animation-duration: 0.5s; /*durée totale d'une itération de l'animation en seconde*/
+            animation-iteration-count: 30; /*nombre d'itération de l'animation*/
+            animation-direction: alternate-reverse;/*lire l'animation dans un sens puis dans l'autre*/
+            animation-delay : 10s;/*faire démarer une animation un peu en retard*/
+            font-size: 150px;
+            color: rgb(12, 74, 22);
+            opacity: 0%;
+            position:relative; right: -150px ; bottom: 240px; 
+            }
+          
+            @keyframes aie  { /*ici vous renseignez le nom de l'animation à réutiliser 
+              pour la propriété animation-name*/
+            
+            0%{ 
+              propriété : valeur; font-size: 200px;
+              font-variation-settings:"SCAN" -40,"BLED" -40;
+              position:relative; right: -150px ; bottom: 50px; 
+              color: rgb(8, 56, 26);
+              transform: rotate(2deg);
+              opacity: 100%;
+        
+              }  
+             50%{
+
+              transform: rotate(0deg);
+             }
+              100%{ 
+                propriété : valeur; font-size: 220px;
+                font-variation-settings:"SCAN" 90,"BLED" 70;
+                position:relative; right: -150px ; bottom: 50px; 
+                color: rgb(15, 198, 107);
+                transform: rotate(-2deg);
+                border-color: black;
+                opacity: 100%;
+              }
+            } 
+
+        #fixe4{
+            animation-name: fixe4 ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+            animation-duration: 0.5s; /*durée totale d'une itération de l'animation en seconde*/
+            animation-iteration-count: 30; /*nombre d'itération de l'animation*/
+            animation-direction: alternate-reverse;/*lire l'animation dans un sens puis dans l'autre*/
+            animation-delay : 10s;/*faire démarer une animation un peu en retard*/
+            font-size: 200px;
+            color: rgb(74, 46, 12);
+            position:relative; right: -50px ; bottom: 250px; 
+            
+            }
+          
+            @keyframes fixe4  { /*ici vous renseignez le nom de l'animation à réutiliser 
+              pour la propriété animation-name*/
+            
+            0%{ 
+              propriété : valeur; font-size: 200px;
+              font-variation-settings:"FMRT" 100,"wght" 150;
+              position:relative; right: -50px ; bottom: 250px; 
+              color: darkorange;
+              transform: rotate(-2deg);
+        
+              }
+
+              50%{ 
+                propriété : valeur; font-size: 200px;
+                font-variation-settings:"FMRT" 100,"wght" 150;
+                position:relative; right: -50px ; bottom: 250px; 
+                color: rgb(112, 66, 9);
+                transform: rotate(0deg);
+          
+                }
+              100%{ 
+                propriété : valeur; font-size: 200px;
+                font-variation-settings:"FMRT" 800,"wght" 800;
+                position:relative; right: -50px ; bottom: 250px; 
+
+                color: rgb(69, 5, 5);
+                transform: rotate(2deg);
+              }
+            }
+
+            #mordre{
+              animation-name: gnap ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+              animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+              animation-iteration-count: 15; /*nombre d'itération de l'animation*/
+              animation-direction: normal;/*lire l'animation dans un sens puis dans l'autre*/
+              animation-delay : 10s;/*faire démarer une animation un peu en retard*/
+              font-size: 150px;
+              color: rgb(10, 23, 12);
+              opacity: 0%;
+              position:relative; right: -250px ; bottom:50px; 
+              transform: rotate(20deg);
+              }
+            
+              @keyframes gnap  { /*ici vous renseignez le nom de l'animation à réutiliser 
+                pour la propriété animation-name*/
+              
+              0%{ 
+                propriété : valeur; font-size: 150px;
+                color: rgb(23, 4, 6);
+                opacity: 100%;
+          
+                }  
+
+                100%{ 
+                  propriété : valeur; font-size: 180px;
+                  color: rgb(129, 9, 9);
+                  opacity: 10%;
+            
+                  }  
+              }
+
+              #mordre{
+                animation-name: gnap ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+                animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+                animation-iteration-count: 15; /*nombre d'itération de l'animation*/
+                animation-direction: normal;/*lire l'animation dans un sens puis dans l'autre*/
+                animation-delay : 10s;/*faire démarer une animation un peu en retard*/
+                font-size: 150px;
+                color: rgb(10, 23, 12);
+                opacity: 0%;
+                position:relative; right: -250px ; bottom:50px; 
+                transform: rotate(20deg);
+                }
+              
+                @keyframes gnap  { /*ici vous renseignez le nom de l'animation à réutiliser 
+                  pour la propriété animation-name*/
+                
+                0%{ 
+                  propriété : valeur; font-size: 150px;
+                  color: rgb(23, 4, 6);
+                  opacity: 100%;
+            
+                  }  
+  
+                  100%{ 
+                    propriété : valeur; font-size: 180px;
+                    color: rgb(129, 9, 9);
+                    opacity: 10%;
+              
+                    }  
+                }
+                #mordre{
+                  animation-name: gnap ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+                  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+                  animation-iteration-count: 15; /*nombre d'itération de l'animation*/
+                  animation-direction: normal;/*lire l'animation dans un sens puis dans l'autre*/
+                  animation-delay : 10s;/*faire démarer une animation un peu en retard*/
+                  font-size: 150px;
+                  color: rgb(10, 23, 12);
+                  opacity: 0%;
+                  position:relative; right: -250px ; bottom:50px; 
+                  transform: rotate(20deg);
+                  }
+                
+                  @keyframes gnap  { /*ici vous renseignez le nom de l'animation à réutiliser 
+                    pour la propriété animation-name*/
+                  
+                  0%{ 
+                    propriété : valeur; font-size: 150px;
+                    color: rgb(23, 4, 6);
+                    opacity: 100%;
+              
+                    }  
+    
+                    100%{ 
+                      propriété : valeur; font-size: 180px;
+                      color: rgb(129, 9, 9);
+                      opacity: 10%;
+                
+                      }  
+                  }
+                  #mordre2{
+                    animation-name: gnap2; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+                    animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+                    animation-iteration-count: 15; /*nombre d'itération de l'animation*/
+                    animation-direction: normal;/*lire l'animation dans un sens puis dans l'autre*/
+                    animation-delay : 10s;/*faire démarer une animation un peu en retard*/
+                    font-size: 150px;
+                    color: rgb(10, 23, 12);
+                    opacity: 0%;
+                    position:relative; right: -850px ; bottom:950px; 
+                    transform: rotate(-20deg);
+                    }
+                  
+                    @keyframes gnap2 { /*ici vous renseignez le nom de l'animation à réutiliser 
+                      pour la propriété animation-name*/
+                    
+                    0%{ 
+                      propriété : valeur; font-size: 150px;
+                      color: rgb(210, 28, 43);
+                      opacity: 1%;
+                
+                      }  
+      
+                      100%{ 
+                        propriété : valeur; font-size: 180px;
+                        color: rgb(42, 6, 6);
+                        opacity: 100%;
+                  
+                        }  
+                    }
+            
